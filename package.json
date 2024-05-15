@@ -1,0 +1,42 @@
+{
+  "name": "expo-react-native-inner-broker",
+  "version": "0.1.0",
+  "description": "A module to add an inner mqtt broker into an expo/react-native app",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "xed example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-react-native-inner-broker",
+    "Broker"
+  ],
+  "repository": "https://github.com/diiix7/expo-react-native-inner-broker",
+  "bugs": {
+    "url": "https://github.com/diiix7/expo-react-native-inner-broker/issues"
+  },
+  "author": "diiix7 <loickadjiwanou1111@gmail.com> (github.com/diiix7)",
+  "license": "MIT",
+  "homepage": "https://github.com/diiix7/expo-react-native-inner-broker#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "expo-module-scripts": "^3.5.1",
+    "expo-modules-core": "^1.12.9"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}
